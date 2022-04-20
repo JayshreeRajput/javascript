@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style>
+  .slt{
+      color:"green";
+      margin:"10px";
+      width:"200px";
+      font-family:"Arial";
+      background-color:cyan;
+      }
+      .inpt{
+                background-color:aqua;
+                
+      
+      }
+      textarea {  
+      width: 100%;  height: 150px;  padding: 12px 20px;  box-sizing: border-box;  border: 2px solid #ccc;  border-radius: 4px;  background-color: #f8f8f8;  resize: none;
+      }
+      [4:21 PM] Jyothi Chellappan
+* {
+margin: 0;
+padding: 0;
+} .navbar {
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+} .background {
+background: black;
+background-blend-mode: darken;
+background-size: cover;
+} .nav-list {
+width: 70%;
+display: flex;
+align-items: center;
+} .logo {
+display: flex;
+justify-content: center;
+align-items: center;
+} .logo img {
+width: 180px;
+border-radius: 50px;
+} .nav-list li {
+list-style: none;
+padding: 26px 30px;
+} .nav-list li a {
+text-decoration: none;
+color: white;
+} .nav-list li a:hover {
+color: grey;
+} .rightnav {
+width: 30%;
+text-align: right;
+} #search {
+padding: 5px;
+font-size: 17px;
+border: 2px solid grey;
+border-radius: 9px;
+}    
+      
+ </style>
+<title>Advertisement page</title>
+ <h2>advertisement form</h2>
+
+</head>
+<body>
+	<nav class="navbar background">
+<ul class="nav-list">
+<div class="logo">
+<img src= "logo.png">
+</div>
+<li><a href="Web.html">Web Technology</a></li>
+<li><a href="Java.html">JavaProgramming</a></li>
+<li><a href="JavaScript.html">JavaScript</a></li>
+</ul>
+
+
+
+<div class="rightNav">
+<!-- <input type="text" name="search" id="search"> -->
+<input type="search" name="search1" id="search2">
+<!-- <button class="btn btn-sm">Search</button> -->
+</div>
+</nav>
+    <form name="adv1" action="Thanks.html">
+    <div>
+        <Label for="company"></Label>
+	Company :
+        <select class="slt">   
+                <option>abc1</option>
+                <option>abc2</option>
+                <option>abc3</option>
+        
+         </select><br><br>
+       	<label for="courses"></label>       
+      Courses :<select class="slt">
+                
+                   <option>Java</option>
+                   <option>Boomi</option>
+                   <option>javascript</option>
+        
+              </select><br><br>
+    Duration:<br>
+       Start date:<input type=date>
+       End date:<input type=date><br>
+       fee structure:<br>
+       <input type="radio">Package1<br>
+       <input type="radio">Package2<br>
+       <input type="radio">Packag31<br><br>
+       
+       Preference Branches:<br>
+      <input type="checkbox">Hyderbad
+       <input type="checkbox">Chennai
+       <input type="checkbox">Banglores<br>
+    Student Details:<br>
+    	Name:<input type="text" class="inpt"><br>
+        Email Address:<input type="email" class="inpt"><br>
+        Phone No:<input type="number"><br>
+        Photograph:<input type="image"><br><br>
+        Comments:<textarea rows="4" cols="50px">Hello Please give ur comments here</textarea><br><br>
+        
+    Discount offers:
+        <table>
+           <tr><th>package1</th><th>Package2</th><th>Package3</th></tr>
+           <tr><td>20%</td><td>35%</td><td>50%</td></tr><br>
+           </table>
+           <br>
+      <input type="submit" value="register">
+      <input type="reset" value="cancel">
+      
+		</div>
+    </form>
+</body>
+</html>
